@@ -1,0 +1,47 @@
+[package]
+name = "jm_archer"
+version = "0.1.0"
+authors = ["Anatolii <java1cprog@yandex.ru>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name="fizzbazz"
+path="src/fizzbazz.rs"
+
+[[bin]]
+name="fizzbazz_jp"
+path="src/fizzbazz_jp.rs"
+
+[[bin]]
+name="fizzbazz_just_print"
+path="src/fizzbazz_just_print.rs"
+
+[[bin]]
+name="fizzbazz_print_string"
+path="src/fizzbazz_print_string.rs"
+
+[[bin]]
+name="fizzbazz_enum1"
+path="src/fizzbazz_enum1.rs"
+
+[[bin]]
+name="fizzbazz_enum1_match"
+path="src/fizzbazz_enum1_match.rs"
+
+[[bin]]
+name="fizzbazz_enum1_match2"
+path="src/fizzbazz_enum1_match2.rs"
+
+[[bin]]
+name="fizzbazz_enum1_to_string"
+path="src/fizzbazz_enum1_to_string.rs"
+
+[[bin]]
+name="fizzbazz_enum1_display"
+path="src/fizzbazz_enum1_display.rs"
+
+[[bin]]
+name="fizzbazz_enum1_debug"
+path="src/fizzbazz_enum1_debug.rs"
